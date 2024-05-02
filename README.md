@@ -202,3 +202,6 @@
   - 배열 메서드인 forEach는, 콜백 함수를 인자로 받는 메서드 중 일부는 추가로 this로 지정할 객체인 thisArg를 인자로 지정할 수 있다.
   - 6번째 줄에서 배열을 순회하면서 콜백 함수를 실행하며 콜백 함수 내부에서의 this는 forEach 함수의 두 번째 인자로 전달해준 9번째 줄 this가 바인딩된다.
 31. 예제 3-31.js
+  - forEach와 마찬가지로 thisArg를 인자로 받는 메서드들이 많이 있다.
+  - 그러한 메서드들을 적은 예제이다.
+  - forEach, map, filter, some, every, find, findIndex 등
