@@ -283,6 +283,8 @@
   - inner 함수 내부에 a를 선언하지 않았기에 environmentRecord에서 값을 찾지 못하므로 outerEnvironmentReference에 지정된 상위 컨텍스트인 outer의 LexicalEnvironment에 접근하여 a를 찾는다.
 
 2. 예제 5-02.js
+  - 예제 5-01과 다르게 inner 함수를 실행한 결과를 리턴한다.
+  - 따라서, outer 함수의 실행 컨텍스트가 종료된 시점에 a 변수를 참조하는 대상이 없어진다.
 
 3. 예제 5-03.js
 
