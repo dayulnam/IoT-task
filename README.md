@@ -300,7 +300,7 @@
   - return, setInterval, evenListener을 통해 메모리 해제를 구현할 수 있다.
 
 6. 예제 5-06.js
-  -
+  - fruits 변수를 순회하며 li를 생성하고 각 li를 클릭하게 되면 해당 리스너에 기억된 콜백 함수를 실행한다.
 
 7. 예제 5-07.js
   -
