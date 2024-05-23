@@ -279,6 +279,8 @@
 #### Chapter 5 예제 요점
 
 1. 예제 5-01.js
+  - outer 함수에서 변수 a를 선언하였으며 inner 함수에서 a의 값을 1만큼 증가시킨 다음 출력한다.
+  - inner 함수 내부에 a를 선언하지 않았기에 environmentRecord에서 값을 찾지 못하므로 outerEnvironmentReference에 지정된 상위 컨텍스트인 outer의 LexicalEnvironment에 접근하여 a를 찾는다.
 
 2. 예제 5-02.js
 
