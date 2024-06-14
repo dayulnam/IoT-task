@@ -470,6 +470,8 @@
   - SubClass의 prototype의 __proto__가 SuperClass의 prototype을 바라보되, SuperClass의 인스턴스가 되지 않으므로 간단하면서 안전한 방안이다.
 
 12. 예제 7-11.js
+  - 클래스 상속 및 추상화 방법 중 인스턴스 생성 후 프로퍼티 제거의 완성본이다.
+  - SubClass.prototype.constructor가 원래의 SubClass를 바라보도록 해주었다.
 
 13. 예제 7-12.js
 
