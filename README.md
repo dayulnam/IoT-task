@@ -482,7 +482,9 @@
   - 마찬가지로 SubClass.prototype.constructor가 원래의 SubClass를 바라보도록 해주었다.
 
 15. 예제 7-14.js
-
+  - 하위 클래스에서 상위 클래스의 프로토타입 메서드에 접근하기 위한 별도의 수단을 만드는 방안이다.
+  - 다른 객체지향 언어들의 클래스 문법 중 super를 흉내낸 것이다.
+  - SuperClass의 생성자 함수에 접근하고자 할 때는 this.super(), SuperClass의 프로토타입 메서드에 접근하고자 할 때는 this.super(propName)와 같이 사용한다.
 16. 예제 7-15.js
 
 17. 예제 7-16.js
