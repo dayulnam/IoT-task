@@ -478,6 +478,8 @@
   - 마찬가지로 SubClass.prototype.constructor가 원래의 SubClass를 바라보도록 해주었다.
 
 14. 예제 7-13.js
+  - 클래스 상속 및 추상화 방법 중 Object.create 활용하는 것의 완성본이다.
+  - 마찬가지로 SubClass.prototype.constructor가 원래의 SubClass를 바라보도록 해주었다.
 
 15. 예제 7-14.js
 
