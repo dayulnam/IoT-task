@@ -489,3 +489,7 @@
   - ES5 체계에서의 생성자 함수 및 프로토타입과 ES6의 클래스 문법을 비교한 코드이다.
 
 17. 예제 7-16.js
+  - ES5에는 상속 문법 자체가 없다. 따라서 ES6의 클래스 상속 문법을 알아보는 코드이다.
+  - 10번째 줄에서 Square를 Rectangle 클래스를 상속받는 SubClass로 만들기 위해 class 명령어 뒤에 단순히 'extend Rectangle'이라는 내용을 추가한다. 이것만으로 상속 관계 설정이 끝난다.
+  - 12번째 줄에서 constructor 내부에서는 super라는 키워드를 함수처럼 사용할 수 있으며 이 함수는 SuperClass의 constructor를 실행한다.
+  - 15번째 줄에서 constructor 메서드를 제외한 다른 메서드에서는 super 키워드를 마치 객체처럼 사용할 수 있으며 객체는 SuperClass.prototype을 바라본다. 호출한 메서드의 this는 super가 아닌 원래의 this를 그대로 따르게 된다.
