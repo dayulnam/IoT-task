@@ -458,6 +458,8 @@
   - extendClass1 함수는 SuperClass와 Subclass, SubClass에 추가할 메서드들이 정의된 객체를 받아서 SubClass의 prototype 내용을 정리하고 freeze하는 내용으로 구성된다.
 
 9. 예제 7-08 추가코드.js
+  - 예제 7-08의 이어서 두 번째 방안으로, SubClass의 prototype에 직접 SuperClass의 인스턴스를 할당하는 대신 아무런 프로퍼티를 생성하지 않는 빈 생성자 함수(Bridge)를 하나 더 만든다.
+  - 만든 후, 그 prototype이 SuperClass의 prototype을 바라보게끔 하여 SubClass의 prototype에 Bridge의 인스턴스를 할당하게 한다.
 
 10. 예제 7-09.js
 
