@@ -462,10 +462,12 @@
   - 만든 후, 그 prototype이 SuperClass의 prototype을 바라보게끔 하여 SubClass의 prototype에 Bridge의 인스턴스를 할당하게 한다.
 
 10. 예제 7-09.js
-  - 클래스 상속 및 추상화 방법 두 번째로, 예제 7-08 추가코드와 같이 빈 함수를 활용하는 방안이다.
+  - 클래스 상속 및 추상화 방법 두 번째로, 예제 7-08 추가코드와 같이 빈 함수를 활용하는 방법이다.
   - Bridge라는 빈 함수를 만들고, Bridge.prototype이 Rectangle.prototype을 참조하게 하여 Square.prototype에 new Bridge()로 할당하면 Rectangle 자리에 Bridge가 대체된다
 
 11. 예제 7-10.js
+  - 클래스 상속 및 추상화 방법 세 번째로, ES5에서 도입된 Object.create를 활용하는 방법이다.
+  - SubClass의 prototype의 __proto__가 SuperClass의 prototype을 바라보되, SuperClass의 인스턴스가 되지 않으므로 간단하면서 안전한 방안이다.
 
 12. 예제 7-11.js
 
